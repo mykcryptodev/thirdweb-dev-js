@@ -19,7 +19,7 @@ import { useActiveWallet } from "./wallet-hooks.js";
  * @beta
  * @example
  * ```tsx
- * import { useCapabilities } from "thirdweb/react";
+ * import { useCapabilities } from "thirdweb/wallets/eip5792";
  * const { data: capabilities, isLoading } = useCapabilities();
  * ```
  * @extension EIP5792
